@@ -18,28 +18,28 @@ Four major models were developed and compared:
 
 1) Random Forest
 
-* Trained on engineered features.
-* Hyperparameters tuned via grid search + cross-validation.
-* Robust to irrelevant features and effective on non-linear data
+  * Trained on engineered features.
+  * Hyperparameters tuned via grid search + cross-validation.
+  * Robust to irrelevant features and effective on non-linear data
 
 
 2) Multi-Layer Perceptron (MLP)
 
-* Optimized with feature selection, ReLU activation, early stopping, and grid search over architecture and learning rate.
-* Performed strongly across validation splits
+  * Optimized with feature selection, ReLU activation, early stopping, and grid search over architecture and learning rate.
+  * Performed strongly across validation splits
 
 3) Stacking Ensemble
 
-* Combined Random Forest, MLP, and SVM.
-* Used class reweighting and meta-classifier tuning.
-* Achieved better performance than individual base learners
+  * Combined Random Forest, MLP, and SVM.
+  * Used class reweighting and meta-classifier tuning.
+  * Achieved better performance than individual base learners
 
 4) Convolutional Neural Network (CNN)
-* Built from raw images, progressively enhanced with:
-* Data augmentation
-* Deeper layers
-* Larger input resolution (96×96)
-* Adaptive learning rate + early stopping
+  * Built from raw images, progressively enhanced with:
+  * Data augmentation
+  * Deeper layers
+  * Larger input resolution (96×96)
+  * Adaptive learning rate + early stopping
 Achieved 98.6% validation accuracy and 99.3% Kaggle test accuracy, outperforming all other models
 
 ---
