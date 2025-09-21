@@ -1,10 +1,10 @@
-German Traffic Sign Classification 
+# German Traffic Sign Classification 
 
 This project was completed as part of COMP30027 – Machine Learning at the University of Melbourne (Semester 1, 2025).
 The goal was to build supervised machine learning models to classify German traffic signs into 43 categories using both engineered features and deep learning approaches
 
 --- 
-📖 Project Overview
+## 📖 Project Overview
 
 * Dataset: Subset of the GTSRB – German Traffic Sign Recognition Benchmark
 * Task: Predict the correct traffic sign class given raw images and/or extracted features.
@@ -12,7 +12,7 @@ The goal was to build supervised machine learning models to classify German traf
 * Key Focus: Comparing classical ML models with feature engineering versus CNNs on raw image data.
 
 ---
-⚙️ Models Implemented
+## ⚙️ Models Implemented
 
 Four major models were developed and compared:
 
@@ -43,7 +43,7 @@ Four major models were developed and compared:
 Achieved 98.6% validation accuracy and 99.3% Kaggle test accuracy, outperforming all other models
 
 ---
-📊 Results Summary
+## 📊 Results Summary
 | Model                 | Validation Accuracy | Macro F1 |
 | --------------------- | ------------------- | -------- |
 | Random Forest (tuned) | 81.1%               | 78.2%    |
@@ -54,7 +54,7 @@ Achieved 98.6% validation accuracy and 99.3% Kaggle test accuracy, outperforming
 * Key trade-off: Classical models are interpretable & efficient; CNNs demand higher computation but achieve near-human accuracy
 
 ---
-▶️ Running the Project
+## ▶️ Running the Project
 
 All experiments are contained in the Jupyter notebook.
 Execute cells sequentially to reproduce results:
@@ -67,7 +67,7 @@ Execute cells sequentially to reproduce results:
 Each section is self-contained and produces its own results, figures, and evaluation metrics.
 
 ---
-🧩 Key Insights
+## 🧩 Key Insights
 
 * Feature engineering (LBP, Hu moments, PCA-reduced histograms) improved classical ML model performance and reduced dimensionality from 120 → 51 features
 * Stacking ensembles enhanced generalization, but performance plateaued despite tuning.
@@ -75,7 +75,7 @@ Each section is self-contained and produces its own results, figures, and evalua
 * Error analysis revealed persistent challenges with class imbalance and blurred/ambiguous signs.
 
 ---
-📑 References
+## 📑 References
 * Wolpert, D.H. (1992). Stacked Generalization. Neural Networks.
 * Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. NIPS.
 * GTSRB Dataset on Kaggle
